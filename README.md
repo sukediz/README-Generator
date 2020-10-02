@@ -22,7 +22,7 @@ Clone the GitHub repository to your local drive. Run `npm install` to install de
 
 * You will be prompted with a series of questions on your project.
 
-* Once you have answered all prompts, a NewREADME. will be created in the output folder.
+* Once you have answered all prompts, a NewREADME. will be created in the root folder.
 
 ![](assets/readme-walkthrough.gif)
 
