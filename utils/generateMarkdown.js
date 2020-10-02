@@ -1,9 +1,9 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.projectTitle}
-[![](https://img.shields.io/badge/License-${data.license}-green)](#license)
+function generateMarkdown(response) {
+  return `# ${response.title}
+[![](https://img.shields.io/badge/License-${response.license}-green)](#license)
 ## Description
-${data.projectDesc}
+${response.description}
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -12,18 +12,18 @@ ${data.projectDesc}
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation
-${data.InstalInst}
+${response.installation}
 ## Usage
-${data.usageInfo}
+${response.usage}
 ## Contributing
-${data.contriGuide}
+${response.contributing}
 ## Tests
-${data.testInst}
+${response.test}
 ## License
-${getLicenseNotice(data.license)}
+${getLicenseNotice(response.license)}
 ## Questions
-* Please raise a request at [github](https://github.com/${data.gitHubUser})
-* For any enquiries, please reach out to my email: ${data.email}`;
+* Please raise a request at [github](https://github.com/${response.username})
+* For any enquiries, please reach out to my email: ${response.email}`;
 }
 
 function getLicenseNotice(license) {

@@ -2,7 +2,6 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMD = require("./utils/generateMarkdown")
 
-
 // array of questions for user
 const questions = [{
     type: "input",
@@ -66,7 +65,7 @@ const handleError = err => {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then(response => writeToFile('README.md', generateMD(response)));
+    inquirer.prompt(questions).then(response => writeToFile('newREADME.md', generateMD(response)));
 }
 
 // function call to initialize program

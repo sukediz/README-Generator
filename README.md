@@ -1,7 +1,5 @@
 # README Generator
 
-A CLI application that renders employee information onto a readable HTML file. 
-
 ### Description
 
 This project takes information entered into the command line by the user and generates a README markdown of the user's project.
@@ -26,7 +24,9 @@ Clone the GitHub repository to your local drive. Run `npm install` to install de
 
 * Once you have answered all prompts, a NewREADME. will be created in the output folder.
 
-### Contributing
+![](assets/readme-walkthrough.gif)
+
+### Contributinggit 
 
 Contributions are welcome. Feel free to fork the project and create a pull request with your changes.
 
