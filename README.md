@@ -1,5 +1,7 @@
 # README Generator
 
+[![https://opensource.org/licenses/ISC](https://img.shields.io/badge/License-ISC-green)](#license)
+
 ### Description
 
 This project takes information entered into the command line by the user and generates a README markdown of the user's project.
@@ -32,7 +34,7 @@ Contributions are welcome. Feel free to fork the project and create a pull reque
 
 ### License
 
-This project is licensed under the terms of the ISC license. Read more about this license here.
+This project is licensed under the terms of the ISC license. Read more about this license [here](https://opensource.org/licenses/ISC).
 
 ### Questions
 
