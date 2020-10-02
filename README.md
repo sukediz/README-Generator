@@ -1,6 +1,6 @@
 # README Generator
 
-[![https://opensource.org/licenses/ISC](https://img.shields.io/badge/License-ISC-green)](#license)
+[![](https://img.shields.io/badge/License-ISC-green)](https://opensource.org/licenses/ISC)
 
 ### Description
 
